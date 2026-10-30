@@ -1,0 +1,27 @@
+## Title: ESO Mac Minion
+## Author: solaegis
+## Version: @project-version@
+## AddOnVersion: @addon-build-version@
+## APIVersion: 101051 101050
+## SavedVariables: EsoMacMinion_Data
+## OptionalDependsOn: LibAddonMenu-2.0 LibDebugLogger
+## Description: MacMinion companion. Records roster, addon states, and SavedVariables/LAM layouts. Use /emm help.
+##
+## This Add-On is not created by, affiliated with or sponsored by ZeniMax Media Inc. or any other company.
+## The Elder Scrolls(R) Online(TM) and related logos are registered trademarks or trademarks of ZeniMax Media Inc. in the United States and/or other countries. All rights reserved.
+
+src/Core.lua
+src/hooks/SavedVars.lua
+src/hooks/AddonObserver.lua
+src/hooks/LAM.lua
+src/record/Layout.lua
+src/record/Scan.lua
+src/collect/Env.lua
+src/collect/Characters.lua
+src/collect/Addons.lua
+src/settings/Defaults.lua
+src/settings/Initializer.lua
+src/Commands.lua
+src/settings/SupportFooter.lua
+src/settings/Panel.lua
+src/Init.lua
